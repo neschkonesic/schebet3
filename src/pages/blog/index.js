@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Helmet from 'react-helmet';
+
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 
@@ -7,6 +9,11 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
+
+        <Helmet>
+            <script src="//code.tidio.co/iparhyhyxmxoaqtm7bnpkpzswiv3q0lf.js" async></script>
+         </Helmet>
+
          <div
           className="center margin-top-2"
           style={{
@@ -37,4 +44,3 @@ export default class BlogIndexPage extends React.Component {
       </Layout>
     )
   }
-}
