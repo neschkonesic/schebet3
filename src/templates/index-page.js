@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
- import Helmet from 'react-helmet'
+'
 
 import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
@@ -86,9 +86,6 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
       />
-              <Helmet>
-          <script src="//code.tidio.co/ufyf5f2qalvdnuf8fcgtjpsqoolzrtuo.js" async></script>
-              </Helmet>
     </Layout>
   )
 }
