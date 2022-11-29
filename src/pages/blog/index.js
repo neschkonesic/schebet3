@@ -1,5 +1,8 @@
 import React from 'react'
 
+import Helmet from "react-helmet"
+
+
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 
@@ -31,7 +34,9 @@ export default class BlogIndexPage extends React.Component {
               </div>
               </div>
             </div>
-            
+                  <Helmet>
+                  <script src="//code.tidio.co/<tidio code>.js" async></script>
+                  </Helmet>
           </div>
         </section>
       </Layout>
